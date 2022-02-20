@@ -13,6 +13,7 @@
 		521E7CF727C1014500F748C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521E7CF527C1014500F748C8 /* Main.storyboard */; };
 		521E7CF927C1014800F748C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521E7CF827C1014800F748C8 /* Assets.xcassets */; };
 		521E7CFC27C1014800F748C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521E7CFA27C1014800F748C8 /* LaunchScreen.storyboard */; };
+		52CC4D4327C10456008700BB /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC4D4227C10456008700BB /* ConversationsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		521E7CF827C1014800F748C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521E7CFB27C1014800F748C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521E7CFD27C1014800F748C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CC4D4227C10456008700BB /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		521E7CEE27C1014500F748C8 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				52CC4D4127C102D1008700BB /* Model */,
+				52CC4D4027C102CD008700BB /* View */,
+				52CC4D3F27C102CA008700BB /* ViewModel */,
+				52CC4D3E27C102C6008700BB /* Controller */,
+				52CC4D3D27C102C2008700BB /* Api */,
+				52CC4D3C27C102BA008700BB /* Utils */,
 				521E7CEF27C1014500F748C8 /* AppDelegate.swift */,
 				521E7CF127C1014500F748C8 /* SceneDelegate.swift */,
 				521E7CF327C1014500F748C8 /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				521E7CFD27C1014800F748C8 /* Info.plist */,
 			);
 			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		52CC4D3C27C102BA008700BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52CC4D3D27C102C2008700BB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		52CC4D3E27C102C6008700BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52CC4D4227C10456008700BB /* ConversationsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52CC4D3F27C102CA008700BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52CC4D4027C102CD008700BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52CC4D4127C102D1008700BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +191,7 @@
 			files = (
 				521E7CF427C1014500F748C8 /* ViewController.swift in Sources */,
 				521E7CF027C1014500F748C8 /* AppDelegate.swift in Sources */,
+				52CC4D4327C10456008700BB /* ConversationsController.swift in Sources */,
 				521E7CF227C1014500F748C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
